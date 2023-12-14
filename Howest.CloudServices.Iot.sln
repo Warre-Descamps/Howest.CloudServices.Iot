@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Howest.CloudServices.Iot.Device", "Howest.CloudServices.Iot.Device\Howest.CloudServices.Iot.Device.csproj", "{95C887A5-6C14-4BAC-9BA6-20C0BD9F31AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Howest.CloudServices.Iot.Functions", "Howest.CloudServices.Iot.IotTrigger\Howest.CloudServices.Iot.IotTrigger.csproj", "{BBEBB0A4-B647-41D0-97F0-BF648ACFC510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Howest.Mct.Functions.CosmosDb.Helper", "Howest.Mct.Functions.CosmosDb.Helper\Howest.Mct.Functions.CosmosDb.Helper.csproj", "{F9379737-B72A-49D1-8535-E2FA61728015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Howest.CloudServices.Iot.Models", "Howest.CloudServices.Iot.Models\Howest.CloudServices.Iot.Models.csproj", "{95E813F6-49E1-4079-9F15-13278703A37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Howest.CloudServices.Iot.HttpTrigger", "Howest.CloudServices.Iot.HttpTrigger\Howest.CloudServices.Iot.HttpTrigger.csproj", "{D344CBAA-7252-44BF-B6EC-65BB0695DA45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C887A5-6C14-4BAC-9BA6-20C0BD9F31AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C887A5-6C14-4BAC-9BA6-20C0BD9F31AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C887A5-6C14-4BAC-9BA6-20C0BD9F31AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C887A5-6C14-4BAC-9BA6-20C0BD9F31AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEBB0A4-B647-41D0-97F0-BF648ACFC510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEBB0A4-B647-41D0-97F0-BF648ACFC510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEBB0A4-B647-41D0-97F0-BF648ACFC510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEBB0A4-B647-41D0-97F0-BF648ACFC510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9379737-B72A-49D1-8535-E2FA61728015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9379737-B72A-49D1-8535-E2FA61728015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9379737-B72A-49D1-8535-E2FA61728015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9379737-B72A-49D1-8535-E2FA61728015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E813F6-49E1-4079-9F15-13278703A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E813F6-49E1-4079-9F15-13278703A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E813F6-49E1-4079-9F15-13278703A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E813F6-49E1-4079-9F15-13278703A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D344CBAA-7252-44BF-B6EC-65BB0695DA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D344CBAA-7252-44BF-B6EC-65BB0695DA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D344CBAA-7252-44BF-B6EC-65BB0695DA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D344CBAA-7252-44BF-B6EC-65BB0695DA45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

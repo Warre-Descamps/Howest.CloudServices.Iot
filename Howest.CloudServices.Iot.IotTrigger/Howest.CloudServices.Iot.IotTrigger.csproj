@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AzureFunctionsVersion>V4</AzureFunctionsVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.EventHubs" Version="6.0.2" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.2.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="host.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="local.settings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Howest.Mct.Functions.CosmosDb.Helper\Howest.Mct.Functions.CosmosDb.Helper.csproj" />
+      <ProjectReference Include="..\Howest.CloudServices.Iot.Models\Howest.CloudServices.Iot.Models.csproj" />
+    </ItemGroup>
+</Project>
